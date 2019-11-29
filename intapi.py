@@ -4,7 +4,7 @@ import maya
 import datetime
 import arrow
 
-print("Podaj login")
+print("Podaj loasgashgasgsagsaggin")
 user = input()
 link = "https://api.github.com/users/" + user
 response = requests.get(link)
