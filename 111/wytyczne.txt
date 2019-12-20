@@ -1,0 +1,10 @@
+zajrzy do katalogu unwinds i sprawdzi czy są tam pliki .json
+
+utils.get_logger()
+
+mosquitto_pub -t "bs/unwind" -m "{  \"personId\": \"aaa\", \"cardNumber\": \"bbb\"}"   -- na cgtvx jetsonie przez ssh, tworzy plik lokalnie u mnie 
+
+python3 cgtvxos/faceapi/faceapi_console.py
+
+
+zamienic command na topic
